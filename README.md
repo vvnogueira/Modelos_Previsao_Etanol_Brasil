@@ -38,17 +38,17 @@ sMAPE.
 
 ## Desenvolvimento
 Início → tratou a série temporal → aplicou diferentes modelos (lineares, ML e deep learning) → avaliou → comparou os resultados. Os resultados, foram:
-**Melhores modelos: Random Forest, LGBM, Ridge:**
+- **Melhores modelos: Random Forest, LGBM, Ridge:**
 * MAE ≈ R$ 0,40 – 0,50
 * MAPE ≈ 14%
 * RMSE ≈ R$ 0,52 - R$ 0,62
 * sMAPE < 10
-**LSTM: boa performance, mas instável em alguns períodos**
+- **LSTM: boa performance, mas instável em alguns períodos**
 * MAE ≈ R$ 0,14
 * MAPE ≈ 5,31%
 * RMSE ≈ R$ 0,16
 * sMAPE ≈ 5%
-**SARIMA: pior desempenho geral**
+- **SARIMA: pior desempenho geral**
 * MAE ≈ R$ 0,49
 * MAPE ≈ 55%
 * RMSE ≈ R$ 0,18
@@ -59,7 +59,7 @@ O modelo final alcançou resultados expressivos indicam que o modelo LSTM aprese
 
 Abaixo, o gráfico demonstra como a linha da LSTM acompanha a realidade dos preços ao longo das décadas:
 
-![Gráfico comparativo entre IA e Realidade](grafico_previsao_soja_mt.png)
+![Gráfico comparativo entre IA e Realidade](previsaoxreal.png)
 
 ## Tecnologias Utilizadas
 * **Python:** Linguagem principal
