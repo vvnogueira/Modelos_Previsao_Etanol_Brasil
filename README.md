@@ -5,7 +5,7 @@
 ---
 
 ## O Desafio
-O estado de São Paulo é um grande produtor de etanol, devido a alta volatilidade dos preços, a sazonalidade forte (safra e entressafra), influências do preço de petróleo, taxa de câmbio, preço do açúcar e políticas governamentais causam grande impecilhos na previsibilidade.  
+O estado de São Paulo é um grande produtor de etanol, devido a alta volatilidade dos preços, a sazonalidade forte (safra e entressafra), influências do preço de petróleo, taxa de câmbio, preço do açúcar e políticas governamentais causam grandes impecilhos na previsibilidade.  
 
 O objetivo deste projeto foi responder a uma pergunta central: **"É possível comparar modelos lineares e não lineares, e são capazes de capturar tanto padrões simples quanto dinâmicas complexas da série temporal, garantindo boa capacidade preditiva e generalização?."**
 
@@ -38,17 +38,17 @@ sMAPE.
 
 ## Desenvolvimento
 Início → tratou a série temporal → aplicou diferentes modelos (lineares, ML e deep learning) → avaliou → comparou os resultados. Os resultados, foram:
-- Melhores modelos: Random Forest, LGBM, Ridge:
+**Melhores modelos: Random Forest, LGBM, Ridge:**
 * MAE ≈ R$ 0,40 – 0,50
 * MAPE ≈ 14%
 * RMSE ≈ R$ 0,52 - R$ 0,62
 * sMAPE < 10
-- LSTM: boa performance, mas instável em alguns períodos
+**LSTM: boa performance, mas instável em alguns períodos**
 * MAE ≈ R$ 0,14
 * MAPE ≈ 5,31%
 * RMSE ≈ R$ 0,16
 * sMAPE ≈ 5%
-- SARIMA: pior desempenho geral
+**SARIMA: pior desempenho geral**
 * MAE ≈ R$ 0,49
 * MAPE ≈ 55%
 * RMSE ≈ R$ 0,18
@@ -71,4 +71,4 @@ Abaixo, o gráfico demonstra como a linha da LSTM acompanha a realidade dos pre�
 * **OPTUNA:** Otimização de modelos
 * **MLForecast:** Engenharia de atributos
 ---
-*Projeto desenvolvido para estudo e aplicação de Data Science no Agronegócio.*
+*Projeto desenvolvido para estudo e aplicação do MBA em Data Science & Analytics para operações - POLI/USP.*
