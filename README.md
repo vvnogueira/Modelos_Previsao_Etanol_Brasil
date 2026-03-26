@@ -55,7 +55,7 @@ Início → tratou a série temporal → aplicou diferentes modelos (lineares, M
 * sMAPE ≈ 16%
 
 ## Resultados e Validação
-O modelo final alcançou resultados expressivos indicam que o modelo LSTM apresentam melhor desempenho na previsão dos preços do etanol. A validação foi conduzida por meio de divisão treino-teste, validação cruzada temporal e múltiplas métricas de erro, garantindo robustez e confiabilidade aos resultados obtidos, que ajudaram a prever a **07/2025 a 07/2026**, foi uma ótima oportunidade para ver como o modelo estava se saindo em comparação a dados reais.
+O modelo final alcançou resultados expressivos indicam que o modelo LSTM apresentam melhor desempenho na previsão dos preços do etanol. A validação foi conduzida por meio de divisão treino-teste, validação cruzada temporal e múltiplas métricas de erro, garantindo robustez e confiabilidade aos resultados obtidos, que ajudaram a prever a **04/2023 a 04/2025**, foi uma ótima oportunidade para ver como o modelo estava se saindo em comparação a dados reais.
 
 Abaixo, o gráfico demonstra como a linha da LSTM acompanha a realidade dos preços ao longo das décadas:
 
