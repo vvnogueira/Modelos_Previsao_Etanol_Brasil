@@ -23,7 +23,7 @@ O objetivo deste projeto foi responder a uma pergunta central: **"É possível c
 
 ## A Matéria-Prima (Coleta de Dados)
 1. Para construir este modelo, criei um excel com os preços de etanol: base_de_dados_etanol.csv
-* ** Fonte: CEPEA
+* Fonte: CEPEA
 * Período: 2015 a 2025
 * Frequência: mensal
 * Variável principal: preço do etanol (R$ e US$)
